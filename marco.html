@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akung personal details</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url('myProfile.jpg'); /* Your background image */
+  background-size: 80%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.profile-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  padding: 30px;
+  text-align: left;
+  width: 500px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.profile-img {
+  width: 100px;
+  float:left;
+  margin-right:10px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.profile-img2
+{
+    width: 100px;
+  float:right;
+  margin-right:10px;
+  height: 100px;
+  border-radius: 48%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+
+h1 {
+  font-size: 24px;
+  margin-top:30px;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.button1
+{
+    margin-top:8px;
+    padding: 10px 20px;
+    border: 0.5px solid rgb(0, 0, 0);
+    background-color: rgb(51, 214, 247);
+    color: rgb(16, 35, 88);
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.button1:hover
+{
+    background-color: rgb(23, 121, 192);
+    color: rgb(235, 231, 231);
+}
+
+.button2
+{
+    margin-top:8px;
+    padding: 10px 20px;
+    border: 0.5px solid rgb(0, 0, 0);
+    background-color: rgb(231, 84, 199);
+    color: rgb(16, 35, 88);
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.button2:hover
+{
+    background-color: rgb(117, 30, 142);
+    color: rgb(255, 255, 255);
+}
+
+</style>
+<body>
+  <div class="container">
+    <div class="profile-box">
+      <img src="myProfile.jpg" alt="Marco Profile" class="profile-img">
+      <img src = "pilipinas.png" alt="Marco Profile" class="profile-img2">
+      <h1>Marco C. Montellano</h1>
+      <p>Email: marcomontellano147@gmail.com</p>
+      <p>Phone: 09numberninako</p>
+      <p>Location: City of Bogo</p>
+     <a href="https://facebook.com">
+        <button class="button1">
+            <i class="fab fa-facebook"></i>
+        Facebook
+        </button>
+    </a> 
+    <br>
+    <a href="https://instagram.com">
+        <button class="button2">
+            <i class="fab fa-instagram"></i>
+        Instagram
+        </button>
+    </a> 
+     
+    </div>
+  </div>
+</body>
+</html>
